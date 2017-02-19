@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Inter/css/1.less" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Inter/css/Inter.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Inter/css/bootstrap.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/MyPhoto.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/MyPhoto.less" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/Rusume.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/Rusume.less" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/bootstrap.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/commen.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/commen.less" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/contact.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/myRusume.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/myRusume.less" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jd/animation.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jd/jquery-1.11.3.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jd_detail/jd_detail.js.bak" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jd_mobile/css/base.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jd_mobile/css/cat.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jd_mobile/css/category.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jd_mobile/css/index.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jd_mobile/js/cat.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jd_mobile/js/common.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jd_mobile/js/index.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jd_mobile/js/zepto/fx.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jd_mobile/js/zepto/zepto.min.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/bootstrap.js" charset="UTF-8" />
+  </component>
+</project>

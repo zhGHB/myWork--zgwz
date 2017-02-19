@@ -1,0 +1,10 @@
+
+.liuyan{
+    width:80%;
+    margin: 0 auto;
+}
+input[type="text"]{
+    width:60%;
+    height: 50px;
+    margin-bottom:10px;
+}

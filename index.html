@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title></title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+
+    <![endif]-->
+    <link rel="stylesheet" href="css/Rusume.css"/>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+            });
+        });
+    </script>
+</head>
+<body>
+
+<div class="header">
+    <div class="header-top">
+        <div class="logo lf">
+            <a href="#"><img src="img/logo.png"></a>
+        </div>
+        <div class=" Wel rt">
+            <h1>Welcome to!欢迎来到我的个人网站!</h1>
+        </div>
+    </div>
+</div>
+<!--头部借宿-->
+
+<!--主体内容开始-->
+<div class="main">
+    <!--左侧开始-->
+    <div class="left lf">
+        <div class="left-top ">
+            <a href="#"><img src="img/my.jpg"></a>
+            <h1>周忠</h1>
+        </div>
+        <div class="left-bottom ">
+            <div class="my-info">
+                <div class="list-group">
+                    <a class="list-group-item active">
+                        <h4><span class="glyphicon glyphicon-phone "></span>&nbsp;PHONE</h4>
+                        <p>13056671683</p>
+                    </a>
+                    <a class="list-group-item active" href="#">
+                        <h4><span class="glyphicon glyphicon-envelope"></span>&nbsp;EMAIL</h4>
+                        <p>1917495582@.qq.com</p>
+                    </a>
+                    <a class="list-group-item active">
+                        <h4><span class="glyphicon glyphicon-home"></span>&nbsp;ADDRES4</h4>
+                        <p>成华区成都理工大学</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--左侧结束-->
+    <!--右侧开始-->
+    <div class="right lf">
+        <div class="navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">MYSELF</a>
+                    <a class="navbar-toggle" href="#navbar-menu" data-toggle="collapse">
+                        <!--<span class="glyphicon glyphicon-menu-hamburger"></span>-->
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                </div>
+                <!--菜单主体 -->
+                <div class="navbar-collapse collapse" id="navbar-menu">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html"><span class="glyphicon glyphicon-file" style="color:cornflowerblue"></span> 个人简历</a></li>
+                        <li class="active">
+                            <a href="#" class="dropdown" data-toggle="dropdown">项目<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="jd/jd_index.html">京东首页</a></li>
+                                <li><a href="jd_detail/jd_detail.html">京东详情页</a></li>
+                                <li><a href="Inter/index.html">intel响应式首页</a></li>
+                                <li><a href="wjs/index.html">微金所（响应式)</a></li>
+                                <li><a href="jd_mobile/index.html">手机京东</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="myPhoto.html"><span class="glyphicon glyphicon-picture"></span> 我的相册</a></li>
+                        <!--<li><a href="#">个人js小小库</a></li>-->
+                        <li><a href="contact_me.html"><span class="glyphicon glyphicon-envelope"></span> 留言</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <!--简历内容开始-->
+        <div class="myInfo" id="info">
+            <div class="alert alert-info">个人基本信息</div>
+            <div class="table-responsive">
+                <table class="table table-bordered table-hover table-striped">
+                    <tbody>
+                    <tr>
+                        <td>姓名：<span>周忠</span></td>
+                        <td>性别：<span>男</span></td>
+                        <td>出生日期：<span>91.02.26</span></td>
+                    </tr>
+                    <tr>
+                        <td>籍贯：<span>四川</span></td>
+                        <td>民族:<span>汉族</span></td>
+                        <td>身体状况：<span>健康</span></td>
+                    </tr>
+                    <tr>
+                        <td>身高：<span>168cm</span></td>
+                        <td>学历:<span>本科</span></td>
+                        <td>政治面貌：<span>团员</span></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="edu alert alert-success" id="edu">
+            <h4>教育背景</h4>
+            <div>
+                <h3>成都理工大学</h3>
+                <ul class="list-inline ">
+                    <li><b>机械工程</b></li>
+                    <li><strong>本科</strong></li>
+                    <li><span>2011.09--</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="major alert alert-warning" id="mj">
+            <h4>主修课程</h4>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;计算机科学基础、C语言、高等代数、解析几何、概率论与数理统计，机械工程，机械工程制图，材料力学等等。</p>
+            <h4>自学课程</h4>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;操作系统，数据结构与算法，html5程序语言，css3，PHP程序编码，js ，jQuery,Firework切图。熟悉Mysql数据库，对数据库的基本操作。</p>
+        </div>
+        <div class="jinli" id="jinli">
+            <h4>个人经历</h4>
+            <ul>
+                <li>在校期间一直从事周末家教，总结了工作中必须具有上班精神，负责精神。</li>
+                <li>积极参见各种集体活动，户外活动，总结了其中的聚体责任感和团队责任感。</li>
+                <li>这个暑假参加集体训练html5等相关知识，同时实践实战各项目，积累了一些制作网页的经验。</li>
+            </ul>
+        </div>
+
+        <div class="shijian" id="shijian">
+            <div class="alert alert-danger">实践经历</div>
+            <div class="table-responsive">
+                <table class=" table table-bordered">
+                    <thead>
+                    <tr>
+                        <td>实践</td>
+                        <td>时间</td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>休学两年从事电器店面管理</td>
+                        <td>2012-2014</td>
+                    </tr>
+                    <tr>
+                        <td>京东首页制作</td>
+                        <td>2016-11--2016-12</td>
+                    </tr>
+                    <tr>
+                    <td>手机京东，微金所，intel（bootstrap框架）</td>
+                    <td>2016-11--2016-12</td>
+                    </tr>
+                    <tr>
+                    <td>基于anglurjs的豆瓣api电影热映项目</td>
+                    <td>2016-11--2016-12</td>
+                    </tr>
+                    <tr>
+                        <td>参加web前端培训</td>
+                        <td>2016-12--2017-1</td>
+                    </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+        <div class="skill alert alert-info" id="skill">
+            <h4>技能</h4>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;熟练html，css，Ajax，js，jquery,php,less,等相关语言，熟悉XMl，json格式，熟练div+css布局及熟悉angularJS，JqueryMobile框架，能够根据要求制作出相应的网页。熟悉编辑工具（Hbiulder，DreamWeaver，Edtplus,webStore,githup等）。</p>
+            <div class="skill-box">
+                <div class="lf">
+                    <h3>SoftWare</h3>
+                    <ul>
+                        <li>Photoshop</li>
+                        <li>Dreemweeaver</li>
+                        <li>HBuilder</li>
+                        <li>WebStore</li>
+                        <li>githup</li>
+                    </ul>
+                </div>
+                <div class="lf">
+                    <h3>Languages</h3>
+                    <ul>
+                        <li>HTML/CSS</li>
+                        <li>PHP</li>
+                        <li>JavaScript</li>
+                        <li>Jquery</li>
+                        <li>Bootstrap</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="glory" id="glory">
+            <div class="alert alert-success">荣誉证书</div>
+            <p>CETE4&nbsp;&nbsp;优秀志愿者等</p>
+        </div>
+        <div class="hobby" id="hobby">
+            <div class="alert alert-warning">兴趣爱好</div>
+            <p>听音乐、跑步、爬山，打篮球</p>
+        </div>
+        <div class="gexing" id="gexing">
+            <div class="alert alert-danger">个性</div>
+            <p>乐观开朗、积极向上、能吃苦。能自我总结不足和缺点，并能够积极去改正。</p>
+        </div>
+
+
+    </div>
+
+    <!--附加导行部分-->
+
+    <!--右侧结束-->
+</div>
+<div id="myNav">
+    <ul class="nav nav-stacked nav-pills">
+        <li  ><a  href="#info" class="scroll">基本信息</a></li>
+        <li ><a href="#edu" class="scroll">教育背景</a></li>
+        <li ><a href="#mj" class="scroll">主修课程</a></li>
+        <li ><a href="#jinli" class="scroll">个人经历</a></li>
+        <li ><a href="#shijian" class="scroll">实践经历</a></li>
+        <li ><a href="#skill" class="scroll">技能</a></li>
+        <li ><a href="#glory" class="scroll">荣誉证书</a></li>
+        <li ><a href="#hobby" class="scroll">兴趣爱好</a></li>
+        <li ><a href="#gexing" class="scroll">个性</a></li>
+    </ul>
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>

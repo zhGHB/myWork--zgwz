@@ -1,0 +1,112 @@
+
+.rt{
+  float:right;
+}
+.lf{
+  float:left;
+}
+                  //头部部分
+.header{
+  background:url(../img/bg1.png);
+  background-size:100% 100%;
+  width:100%;
+  height: 110px;
+  .header-top{
+    width:90%;
+    margin:0 auto;
+    padding-top:20px;
+    .logo{
+      margin-top:3px;
+      margin-left:10px;
+    }
+    .Wel{
+      margin-right:2%;
+      color:red;
+    }
+  }
+}
+
+@media screen and (max-width: 820px){
+   .Wel{
+     display: none;
+   }
+}
+          //头部结束
+
+//主体开始
+
+.main{
+  width:90%;
+  margin:1% auto;
+  overflow:hidden;
+  //border:1px solid red;
+  //height: 1000px;
+  .left{
+    background:#337AB7;
+    .left-top{
+       margin-top:15px;
+        a{
+          display: block;
+          width:100%;
+          text-align: center;;
+        }
+    }
+    .my-info{
+      padding:2%;
+      padding-right: 10%;
+      p{
+        color:black;
+      }
+    }
+    h1{
+      text-align: center;
+    }
+
+    dl{
+      width:159px;
+      margin:4%;
+    }
+  }
+  .right{
+    .container1{
+      overflow: hidden;
+      position: relative;
+    }
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+  .main .left{
+    width:25%;
+    //border:1px solid blue;
+  }
+  .main .right{
+    width:75%;
+    //border:1px solid green;
+  }
+}
+@media screen and (max-width: 991px) {
+  .main .left{
+    width:100%;
+    margin-bottom:1%;
+    border:1px solid blue;
+  }
+  .main .right{
+    width:100%;
+    border:1px solid green;
+  }
+}
+
+@media screen and (max-width:991px) and (min-width:768px){
+   .main .left .left-top{
+     float:left;
+     width:50%;
+   }
+  .main .left .left-bottom{
+    float:left;
+    width:50%;
+  }
+}
+
+//右侧部分
